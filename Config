@@ -1,0 +1,9 @@
+Router>enable 
+Router#configure 
+Router(config)#interface GigabitEthernet0/1
+Router(config-if)#no shutdown
+Router#show cdp neighbors 
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
+Device ID    Local Intrfce   Holdtme    Capability   Platform    Port ID
+Switch       Gig 0/1          171            S       2960        Gig 0/1
